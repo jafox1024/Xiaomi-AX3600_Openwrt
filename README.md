@@ -1,11 +1,9 @@
-# H3C NX30 Pro LEDE Action自动构建
+# Xiaomi AiOT AX3600 LEDE Action自动构建
 
-mt76开源无线驱动
+NSS加速+开源无线驱动
 
-内置插件:DDNS，Wireguard，Zerotier，WOL网络唤醒，UPnP，serverchan，ipv6-helper
+内置插件:DDNS，ACME，Homeproxy，WOL网络唤醒，UPnP，NATMap，ipv6-helper
 
-默认SSID：H3CWIFI  默认密码：password  
+默认SSID：MIWIFIAX3600   默认密码：password  
 
 无管理员密码，直接点击登录即可进入路由器后台。
-
-如果有特殊需求，推荐使用[Shellclash](https://github.com/juewuy/ShellClash/blob/master/README_CN.md)。
