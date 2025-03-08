@@ -2,7 +2,7 @@
 
 NSS加速+开源无线驱动
 
-内置插件:DDNS，ACME，Homeproxy，WOL网络唤醒，UPnP，NATMap，ipv6-helper
+内置插件:DDNS，ACME，Homeproxy，WOL网络唤醒，UPnP，NATMap，ipv6-helper，EaseyMesh，zram-swap
 
 默认SSID：MIWIFIAX3600   默认密码：password  
 
