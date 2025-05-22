@@ -34,9 +34,9 @@ sed -i 's/OpenWrt /编译时间 $(TZ=UTC-8 date "+%Y.%m.%d") /g' package/lean/de
 
 #删除原默认主题
 #rm -rf package/lean/luci-theme-bootstrap
-rm -rf package/lean/luci-theme-material
-rm -rf package/lean/luci-theme-netgear
-rm -rf package/kenzo/luci-theme-ifit
+#rm -rf package/lean/luci-theme-material
+#rm -rf package/lean/luci-theme-netgear
+#rm -rf package/kenzo/luci-theme-ifit
 
 # 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
